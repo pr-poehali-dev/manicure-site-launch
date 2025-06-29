@@ -44,6 +44,12 @@ const Gallery = () => {
         "https://images.unsplash.com/photo-1562887284-5c85c9e9e8c3?w=400&h=400&fit=crop&crop=center",
       title: "Омбре с золотом",
     },
+    {
+      id: 8,
+      image:
+        "https://cdn.poehali.dev/files/e956ffcd-9ee4-47ad-98dd-c9c148a7102d.jpeg",
+      title: "Розовый глянцевый маникюр",
+    },
   ];
 
   return (
