@@ -38,6 +38,12 @@ const Gallery = () => {
         "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=400&h=400&fit=crop&crop=center",
       title: "Минимализм",
     },
+    {
+      id: 7,
+      image:
+        "https://images.unsplash.com/photo-1562887284-5c85c9e9e8c3?w=400&h=400&fit=crop&crop=center",
+      title: "Омбре с золотом",
+    },
   ];
 
   return (
