@@ -42,12 +42,21 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Контакты</h4>
             <div className="space-y-2 text-gray-300">
               <div className="flex items-center space-x-2">
+                <Icon name="User" size={16} />
+                <span>Кира Сергеевна</span>
+              </div>
+              <div className="flex items-center space-x-2">
                 <Icon name="MapPin" size={16} />
                 <span>г. Москва, ул. Красоты, 123</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (999) 123-45-67</span>
+                <a
+                  href="tel:+79586358975"
+                  className="hover:text-primary transition-colors"
+                >
+                  8(958)635-89-75
+                </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Clock" size={16} />

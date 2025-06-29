@@ -86,9 +86,11 @@ const Pricing = () => {
               <p className="text-gray-600 mb-6">
                 Свяжитесь с нами для записи на удобное время
               </p>
-              <Button size="lg" className="w-full">
-                <Icon name="MessageCircle" size={20} className="mr-2" />
-                Написать в WhatsApp
+              <Button asChild size="lg" className="w-full">
+                <a href="tel:+79586358975">
+                  <Icon name="Phone" size={20} className="mr-2" />
+                  8(958)635-89-75
+                </a>
               </Button>
             </CardContent>
           </Card>

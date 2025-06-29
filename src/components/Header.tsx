@@ -34,9 +34,11 @@ const Header = () => {
             </a>
           </nav>
 
-          <Button className="hidden md:flex items-center space-x-2">
-            <Icon name="Phone" size={16} />
-            <span>Записаться</span>
+          <Button asChild className="hidden md:flex items-center space-x-2">
+            <a href="tel:+79586358975">
+              <Icon name="Phone" size={16} />
+              <span>8(958)635-89-75</span>
+            </a>
           </Button>
 
           <Button variant="ghost" className="md:hidden">
