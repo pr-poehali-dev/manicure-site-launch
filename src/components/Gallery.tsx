@@ -8,6 +8,12 @@ const Gallery = () => {
         "https://cdn.poehali.dev/files/e956ffcd-9ee4-47ad-98dd-c9c148a7102d.jpeg",
       title: "Розовый глянцевый маникюр",
     },
+    {
+      id: 2,
+      image:
+        "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=500&h=400&fit=crop",
+      title: "Французский маникюр с блестками",
+    },
   ];
 
   return (
